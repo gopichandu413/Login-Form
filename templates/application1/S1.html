@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load staticfiles%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JGC Services</title>
+    <script src="{% static 'js/index1.js' %}"></script>
+</head>
+<body>
+    <hr>
+    <center>
+        <h1><tt>Welcome To JGC Softwares</tt></h1>
+    </center>
+<hr>
+<br>
+<fieldset>
+    <legend>LOGIN_PORTAL</legend>
+    <form action="" onsubmit="return Test_case1()" method="post">
+        <table border="3">
+            <tr>
+                <td><label for="">USERNAME</label></td>
+                <td><input type="text" placeholder="username" autocomplete="off" id="A"></td>
+                <td><span id="YYY"></span></td>
+            </tr>
+            <tr>
+                <td><label for="">PASSWORD</label></td>
+                <td><input type="password" placeholder="Password" autocomplete="off" id="B"></td>
+                <td><span id="ZZZ"></span></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                <input type="submit" value="LOGIN">
+                <input type="reset" value="RESET">
+                </td>
+            </tr>
+
+</form>
+
+</fieldset>
+    
+</body>
+</html>
